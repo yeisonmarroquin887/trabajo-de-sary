@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/javascript.js" defer></script>
+    <title>primer trabajo</title>
+</head>
+   <body>
+    <script src="calculo_figuras.js"></script>
+      <article class="text">
+        <h1>tabla de figuras </h1>
+        <p id="text_t">Desarrolla un programa que permita calcular el area o perimetro de algunas figuras planas segun las siguiente tabla</p>
+      </article>   
+    
+    
+    <section>
+    <table border="1p">
+        <tr class="barra">
+            <td>Figura</td>
+            <td>Datos</td>
+            <td>Area</td>
+            <td>Perimetro</td>
+        </tr>
+  
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                
+                    <nav>
+                        <div>
+                            <label for="ladoA">A:</label>
+                            <input type="number" id="ladoA" name="ladoA"><br><br>
+                        </div>
+                    </nav>
+                    <nav>
+                        <div>
+                            <label for="ladoB">B:</label>
+                            <input type="number" id="ladoB" name="ladoB"><br><br>
+                        </div>
+                    </nav>
+                    <nav>
+                        <div>
+                            <label for="ladoC">C:</label>
+                            <input type="number" id="ladoC" name="ladoC"><br><br>
+                      <div>
+                  </nav>    
+                  <nav>
+                    <div>
+            
+                    </div>
+                  </nav>
+                    
+            </td>
+            <td>
+                <button onclick="calcular3()">Calcular</button><br><br>
+                <div id="area"></div>
+                
+            </td>
+            <td>
+                <button onclick="calcular4()">Calcular</button><br><br>
+                <div id="perimetro"></div>
+           
+            </td>
+        </tr>
+       <tr>
+
+        <td></td>
+        <td>
+            <div>
+                <label for="base">A:</label>
+               <input type="text" id="base">
+            </div>
+            <div>
+                <label for="altura">B:</label>
+               <input type="text" id="altura">
+            </div>
+        </td>
+
+        <td>
+            <button onclick="calcularArea()">Calcular</button>
+      
+            <p id="resultadoArea"></p>
+        </td>
+         
+     
+       <td>
+        <button onclick="calcularPerimetro()">Calcular</button>
+        <p id="resultadoPerimetro"></p>
+    </td>
+</tr>
+        <tr>
+         <td>
+          
+         </td>
+        <td>
+
+                <nav>
+                    <div class="u">
+                        
+                        <select id="figura" name="figura">
+                            <option value="cuadrado">Cuadrado</option>
+                            >
+                        </select>
+                    </div>
+                    <div>
+                        <label for="lado1">A:</label>
+                        <input type="number" id="lado1" name="lado1" required>
+                    </div>
+                </nav>
+                <nav>
+                    <div>
+                        <label for="lado2">B:</label>
+                        <input type="number" id="lado2" name="lado2">
+                    </div>
+                </nav>
+           
+            
+        </td>
+        <td>
+            <button onclick="calcular0()">Calcular</button>
+            <div id="resultado1"></div>
+        </td>
+        <td>
+            <button onclick="calcular2()">Calcular</button>
+            <div id="resultado2"></div>
+        </td>
+    </tr>
+		
+
+    
+		
+		
+	
+		
+	
+
+
+     <tr>
+        <td></td>
+        <td>
+            <div>
+            <label for="radio">A:</label>
+            <input type="text" id="radio" name="radio"><br><br>
+        </div>
+        </td>
+        <td>
+            
+            <button onclick="calcular7()">Calcular</button>
+            <input type="text" id="res" name="res" readonly>
+        </td>
+        <td>
+            <button onclick="calcular8()">Calcular</button>
+            <input type="text" id="rest" name="rest" readonly>
+        </td>
+     </tr>
+    </table>
+    </section>
+
+
+
+   </body>
+</html>

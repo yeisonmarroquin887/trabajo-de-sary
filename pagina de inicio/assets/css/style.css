@@ -1,0 +1,16 @@
+.padre{
+    background-color: blue;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+    display: grid;
+    gap: 2rem;
+    height: 30rem;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
